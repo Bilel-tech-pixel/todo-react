@@ -1,38 +1,62 @@
-.App {
+.to-do-box{
+  background-color: #3399ff;
+  height: 350px;
+  width: 90%;
+  margin: 0 auto;
+}
+.title2{
   text-align: center;
+  color: grey;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title1{
+  text-align: end;
+  color: white;
+  font-size: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  
+.para{
+  text-align: end;
+  color: white;
+  font-size: medium;
+  
 }
+.box{
+  padding: 10px 70px 10px 40px;
+}
+.put-txt{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 35px;
+  
+  border-radius: 8px;
+  padding-right: 84%;
+ 
+}
+.btn{
+  height: 35px;
+  width: 60px;
+  border-radius: 8px;
+  border: 0.5px solid lightblue;
+  margin-top: 20px;
+  margin-left: 94.2%;
+  background-color: #3399ff;
   color: white;
 }
+.but{
+height: 40px;
+width: 140px;
+background-color: lavenderblush;
+border-radius: 4px;
+margin: 10px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.but1{
+  height: 40px;
+  width: 140px;
+  background-color: red;
+  border-radius: 4px;
+  margin: 10px;
+  
   }
-  to {
-    transform: rotate(360deg);
+  .active{
+    text-decoration: line-through;
   }
-}
